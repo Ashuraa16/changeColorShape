@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bodyDiv {
+  /* border: 2px solid rebeccapurple; */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#myDiv {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#innerdiv1 {
+  border: 1px solid rgb(255, 238, 0);
+  width: 100px;
+  height: 100px;
+  background-color: antiquewhite;
+  display: none;
+}
+
+#innerdiv2 {
+  border: 1px solid rgb(255, 238, 0);
+  width: 100px;
+  height: 100px;
+  background-color: rgb(200, 0, 255);
+  border-radius: 50%;
+  display: none;
+}
+
+#innerdiv3 {
+  /* border: 1px solid rgb(255, 238, 0); */
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #0004ff;
+  /* display: none; */
+}
